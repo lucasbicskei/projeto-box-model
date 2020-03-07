@@ -1,0 +1,154 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /*width e height contatos a partir da borda*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: #efefef;
+    color: grey;
+
+
+}
+
+header h1 {
+    /*border: 2px;*/
+    display: inline-block;
+    margin-right: -4px;
+    width: 15%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+}
+
+header h1 span {
+    font-size: 28px;
+    font-weight: 900;
+    font-family: indie, Flower, cursive;
+    font-style: italic;
+}
+
+header nav {
+    display: inline-block;
+    width: 85%;
+    margin-right: -4px;
+    /*border: 1px solid black;*/
+    text-align: right;
+    vertical-align: middle;
+    color: white;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+header {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #727272;
+
+}
+
+main {
+    width: 70%;
+    margin: 20px auto 0 auto;
+}
+
+main section {
+    display: inline-block;
+    margin-right: -4px;
+    width: 70%;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+main aside {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 27%;
+    margin-left: 3%;
+    vertical-align: top;
+}
+
+main section img {
+    width: 100%;
+}
+
+main section h2 {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+main section p {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+.aside-box {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.aside-box h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+}
+
+.aside-box input {
+    height: 35px;
+    width: 70%;
+    margin-left: 25px;
+    margin-right: 25px;
+
+
+    border: 1px solid #efefef;
+}
+
+.aside-box button {
+    width: 15%;
+    height: 30px;
+    background-color: grey;
+    color: white;
+}
+
+.aside-box ul li {
+
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.aside-box p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.aside-box #inscricao {
+    display: block;
+    width:  90%;
+    margin: 0 auto;
+
+
+
+}
